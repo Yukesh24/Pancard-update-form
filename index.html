@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pan update form</title>
+    <style>
+        span{
+            color: red;
+        }
+        table,tr,td{
+            border: 1px solid black; 
+            border-collapse: collapse
+        }
+        *{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(152, 172, 67, 0.829);">
+        <div style="background-color: maroon ;color: white;text-align: center
+        ;"><h4>Request for new pancard / and changes are correction in the pan card</h4>
+        <p style="font-style: italic;">Field marked with <span>*</span> (asterik) are mandatory to avoid mistakes please refer <u style="color: yellow;">guideliness</u>  and <u style="color: yellow;">instructions</u>
+             </p>
+        </div>
+        <div style="font-weight: bold;">
+            <table width="100%">
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>*</span>Whether is citizen of india?
+                        <label for="cyes" style="padding-left: 40px; font-weight: lighter;">Yes</label>
+                        <input type="radio" name="" id="cyes">
+                        <label for="cno" style="padding-left: 20px; font-weight: lighter;">No</label>
+                        <input type="radio" name="" id="cno">
+                    
+                    </td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> <span>*</span>Permnent account number(PAN)
+                    <input type="text"></td>
+                </tr>
+                <td><input type="checkbox"></td>
+                <td><span>*</span>1.Name</td>
+                <tr>
+                    <td></td>
+                    <td>Title 
+                        <label for="1" style="padding-left: 60px; font-weight: lighter;">Shri/Mr</label>
+                        <input type="radio" name="" id="1">
+                        <label for="2" style="padding-left: 40px; font-weight: lighter;">Smt/Mrs.</label>
+                        <input type="radio" name="" id="2">
+                        <label for="3" style="padding-left: 20px; font-weight: lighter;">Kumari/Ms</label>
+                        <input type="radio" name="" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div style="display: inline-block;" >
+                            Last Name/Surname <br>
+                            <input type="box">   
+                        </div> 
+                        
+                        <div  style="display: inline-block; padding-left: 60px;">
+                             
+                            <label for="M">Middle name</label> <br>
+                            <input type="box" name="" id="M">
+
+                        </div>
+
+                        <div  style="display: inline-block; padding-left: 80px;">
+
+                        <label for="F">First Name</label> <br>
+                        <input type="box" name="" id="F"> 
+                
+                        </div> 
+                       
+                        
+                    </td>
+                </tr>
+
+
+
+
+
+            </table>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
